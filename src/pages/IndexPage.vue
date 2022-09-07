@@ -1,35 +1,8 @@
+
 <template>
-  <q-pages>
-    <div class="q-pa-nd">
-      <div style="max-width: 300px">
-        <q-form @submit="submitForm">
-          <div>
-            <g-input label="Your Name" v-model="formData.textInput" />
-          </div>
-          <div class="q-pt-md">
-            <q-btn type="submit" label="Submit" />
-          </div>
-        </q-form>
-      </div>
-      
-    </div>
-  </q-pages>
-</template>
+  <q-page class="flex flex -center">
+    <q-card class="my-card"> 
+    </q-card>
+     </q-page>
+  </template>
 
-<script>
-  import { defineComponent } from 'vue';
-
-  export default defineComponent(option {
-    name: 'PageIndex',
-    data() {
-      return {
-        textinput: null
-      }
-    }
-  },
-    methods: {
-      submitForm() {
-        alert('Your name is: ' + this.formData.textInput);
-      }
-  })
-</script>

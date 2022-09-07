@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\public\\icons",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\boot",
+    "\\src\\components",
+    "\\src\\css",
+    "\\src\\i18n",
+    "\\src\\router"
+  ],
+  "PreviewInSolutionExplorer": false
+}
